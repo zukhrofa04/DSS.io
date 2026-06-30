@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DSS Wisata Jogja</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="bg-gradient"></div>
+
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+
+    <!-- Navbar -->
+
+    <nav>
+
+        <div class="logo">
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            Explore Jogja
+
+        </div>
+
+        <div class="menu">
+
+            <a href="#">Beranda</a>
+
+            <a href="#">Tentang</a>
+
+            <a href="#">Kontak</a>
+
+        </div>
+
+    </nav>
+
+    <!-- Hero -->
+
+    <section class="hero">
+
+        <div class="left">
+
+            <span class="badge">
+
+                ✨ Decision Support System
+
+            </span>
+
+            <h1>
+
+                Temukan Tempat Wisata Terbaik
+                <span>di Yogyakarta</span>
+
+            </h1>
+
+            <p>
+
+                Sistem rekomendasi wisata menggunakan metode
+                <b>TOPSIS</b> berdasarkan preferensi pengguna.
+
+            </p>
+
+            <button id="startBtn">
+
+                Mulai Perjalanan
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+        </div>
+
+        <div class="right">
+
+            <div class="preview-card">
+
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900"
+                    alt="Jogja">
+
+                <div class="content">
+
+                    <h3>Malioboro</h3>
+
+                    <p>
+
+                        ⭐ 4.8
+
+                        &nbsp;&nbsp;
+
+                        📍 5.2 km
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Statistik -->
+
+    <section class="stats">
+
+        <div class="item">
+
+            <h2>30+</h2>
+
+            <p>Tempat Wisata</p>
+
+        </div>
+
+        <div class="item">
+
+            <h2>TOPSIS</h2>
+
+            <p>Metode SPK</p>
+
+        </div>
+
+        <div class="item">
+
+            <h2>GPS</h2>
+
+            <p>Location Based Service</p>
+
+        </div>
+
+        <div class="item">
+
+            <h2>Google</h2>
+
+            <p>Maps Route</p>
+
+        </div>
+
+    </section>
+
+    <!-- Modal -->
+
+    <div class="modal" id="modal">
+
+        <div class="modal-box">
+
+            <h2>
+
+                Selamat Datang 👋
+
+            </h2>
+
+            <p>
+
+                Sebelum memulai perjalanan,
+                masukkan nama atau nama samaran.
+
+            </p>
+
+            <input
+                type="text"
+                id="nama"
+                placeholder="Masukkan nama">
+
+            <button id="nextBtn">
+
+                Lanjut
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
